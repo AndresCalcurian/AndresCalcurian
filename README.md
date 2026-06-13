@@ -46,16 +46,22 @@ Desarrollador de Software Full Stack con más de 6 años de experiencia en el di
 
 ### 🚀 Proyectos de Ingeniería Destacados
 
-#### **Sistema Integral de Operación (SIO)** — [Poligráfica Industrial C.A.](https://www.poligraficaindustrial.com)
-*Desarrollo Core & Consultoría Técnica*
-* Diseño y mantenimiento de la plataforma ERP/MES encargada de centralizar las órdenes de producción, cadena de suministro y logística industrial.
-* Implementación de módulos críticos para el control de calidad, optimizando los tiempos de respuesta y reduciendo el margen de error operativo en planta.
-* Integración de bases de datos relacionales y optimización de procedimientos almacenados para la sincronización con sistemas contables y administrativos.
+#### **MysticConnect** — Sistema de Gestión de Fuerza de Ventas
+*Arquitectura y Desarrollo Full Stack — Versión actual: [[bugs/STORY-001-Bloqueo-Promotora|v2.5.1]]*
 
-#### **Zandaka** — Plataforma de Gestión Financiera
-*Arquitectura y Desarrollo Independiente*
-* Diseño integral de una solución avanzada para la centralización, análisis y proyección de finanzas personales.
-* Implementación de una arquitectura de datos optimizada para el procesamiento de transacciones financieras masivas, presupuestos dinámicos y reportes estructurados.
+Sistema integral para la gestión de fuerza de ventas de las marcas **Mystic** y **Qerametik**. Permite planificar metas mensuales, registrar reportes diarios de ventas con inventario inicial/final, calcular incentivos por puntos, y visualizar estadísticas por región, promotora y cliente.
+
+**Stack:** Angular 19 + Bulma CSS + Chart.js + SweetAlert2 (Frontend) · Node.js + Express + MongoDB/Mongoose + Redis + Socket.IO (Backend)
+
+**Logros técnicos:**
+- Arquitectura modular con TypeScript strict, ES modules y validación Zod
+- Autenticación JWT con refresh rotation, detección de token reuse y account lockout
+- RBAC con jerarquía de 4 roles (Admin > Coordinadora > Ejecutiva > Promotora)
+- Dual API mounting compatible con frontend legacy y nueva API v1 unificada
+- Cache distribuido con Redis (cache-aside con graceful degradation)
+- Testing automatizado con Vitest + Supertest + mongodb-memory-server (45+ tests)
+- Cobertura completa de documentación técnica en Obsidian Vault (62+ archivos)
+- Documentación OpenAPI/Swagger en `/api/v1/docs`
 
 ---
 
@@ -75,3 +81,4 @@ A continuación se presentan estadísticas en tiempo real sobre la actividad de 
 * **Perfil de GitHub:** [github.com/AndresCalcurian](https://github.com/AndresCalcurian)
 * **LinkedIn:** [linkedin.com/in/AndresCalcurian](https://linkedin.com/in/AndresCalcurian)
 * **Email Profesional:** [calcurianandres@gmail.com](mailto:calcurianandres@gmail.com)
+
