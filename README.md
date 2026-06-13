@@ -47,7 +47,7 @@ Desarrollador de Software Full Stack con más de 6 años de experiencia en el di
 ### 🚀 Proyectos de Ingeniería Destacados
 
 #### **MysticConnect** — Sistema de Gestión de Fuerza de Ventas
-*Arquitectura y Desarrollo Full Stack — Versión actual: [[bugs/STORY-001-Bloqueo-Promotora|v2.5.1]]*
+*Arquitectura y Desarrollo Full Stack — Versión actual: v2.5.1*
 
 Sistema integral para la gestión de fuerza de ventas de las marcas **Mystic** y **Qerametik**. Permite planificar metas mensuales, registrar reportes diarios de ventas con inventario inicial/final, calcular incentivos por puntos, y visualizar estadísticas por región, promotora y cliente.
 
